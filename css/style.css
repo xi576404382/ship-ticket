@@ -1,0 +1,294 @@
+/* 
+	* @description: 订单页面的css样式 
+	* @author: 中软国际 
+	* @update: icss (2016-04-17 18:32) 
+*/
+@charset "utf-8";
+
+/*设置背景图片和字体*/
+body {
+	background-image: url(../images/bg.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+	font-family: "宋体", "微软雅黑";
+}
+
+/*高亮文字*/
+.highlight {
+	color: #ff6600;
+}
+
+/*header*/
+#header {
+	height: 105px;
+	width: 1000px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+#header img {
+	float: left;
+}
+
+#header span {
+	height: 21px;
+	line-height: 21px;
+	margin-top: 16px;
+	float: right;
+	color: #fff;
+}
+
+#header span i {
+	font-style: normal;
+	padding: 0 10px;
+}
+
+#header span a {
+	color: #fff;
+}
+
+#header span a:hover {
+	text-decoration: underline;
+}
+
+/********************内容区********************/
+#main {
+	width: 1000px;
+	margin: 0 auto;
+	background: #fff;
+	overflow: hidden;
+}
+
+/*标题*/
+#main .biaoti {
+	width: 965px;
+	margin: 15px auto 0;
+}
+
+#main .biaoti a {
+	height: 40px;
+	line-height: 40px;
+	color: #0880DC;
+}
+
+#main .biaoti a:hover {
+	text-decoration: underline;
+	color: #ff6600;
+}
+
+.luxian {
+	background: #F7F7F7;
+	border-top: 2px solid #2A98DA;
+	overflow: hidden;
+}
+
+.luxian li {
+	height: 53px;
+	line-height: 53px;
+	float: left;
+	font-size: 18px;
+	margin-left: 75px;
+}
+
+/*票价信息*/
+.piaojia {
+	width: 965px;
+	margin: 27px auto 0;
+}
+
+.piaojia>h4 {
+	color: #333;
+	font-size: 14px;
+}
+
+.piaojialan {
+	margin: 10px auto 0;
+	border: 1px solid #ACE0FF;
+	padding: 27px;
+	overflow: hidden;
+}
+
+.piaojialan p {
+
+	/*margin: 27px 27px 0;*/
+}
+
+.piaojialan ul {
+	height: 34px;
+	margin-top: 10px;
+}
+
+.piaojialan ul li {
+	width: 22.5%;
+	line-height: 34px;
+	float: left;
+}
+
+.piaojialan ul li:last-child {
+	width: 10%;
+}
+
+.piaojialan ul li a {
+	color: #0880DC;
+}
+
+.piaojialan ul li a:hover {
+	color: #FF6600;
+	text-decoration: underline;
+}
+
+/*乘船人信息*/
+.chengchuan {
+	width: 965px;
+	margin: 27px auto 0;
+}
+
+.chengchuan>h4 {
+	color: #333;
+	font-size: 14px;
+}
+
+.chengchuanlan {
+	margin: 10px auto 0;
+	border: 1px solid #ACE0FF;
+	overflow: hidden;
+	padding: 15px;
+}
+
+.chengchuanlan .always {
+	height: 50px;
+	line-height: 50px;
+	border: 1px solid #ddd;
+	background: #F5F5F5;
+	padding-left: 15px;
+}
+
+.chengchuanlan .always input {
+	vertical-align: middle;
+}
+
+.chengchuanlan .always a {
+	color: #0880DC;
+}
+
+.chengchuanlan .always a:hover {
+	color: #FF6600;
+	text-decoration: underline;
+}
+
+.chengchuanlan ul {
+	height: 40px;
+	border-bottom: 1px solid #dddddd;
+}
+
+.chengchuanlan ul li {	
+	height: 40px;	
+	line-height: 40px;	
+	margin-right: 20px;	
+	float: left;
+}
+
+.chengchuanlan ul li select {
+	width: 110px;
+}
+
+.chengchuanlan>a {
+	width: 90px;
+	height: 23px;
+	margin-top: 10px;
+	display: block;
+}
+
+/*取票人信息*/
+.qupiao {
+	width: 965px;
+	margin: 27px auto 0;
+}
+
+.qupiao>h4 {
+	color: #333;
+	font-size: 14px;
+}
+
+.qupiaolan {
+	margin: 10px auto 0;
+	border: 1px solid #ACE0FF;
+	overflow: hidden;
+	padding: 15px;
+}
+
+.qupiaolan .qupiaoren {
+	height: 50px;
+	line-height: 50px;
+	border: 1px solid #ddd;
+	background: #F5F5F5;
+	padding-left: 15px;
+}
+
+.qupiaolan .qupiaoren a {
+	color: #0880DC;
+}
+
+.qupiaolan .qupiaoren a:hover {
+	color: #FF6600;
+	text-decoration: underline;
+}
+
+.qupiaolan ul li {
+	height: 40px;
+	line-height: 40px;
+	width: 25%;
+	float: left;
+}
+
+/*提交订单*/
+.submit {
+	width: 965px;
+	height: 70px;
+	margin: 30px auto 5px;
+	border: 1px solid #FED7A7;
+	background: #FFF8EE;
+	overflow: hidden;
+}
+
+.submit .wrapper {
+	width: 370px;
+	height: 70px;
+	line-height: 70px;
+	float: right;
+}
+
+.submit .wrapper>span {
+	float: left;
+	width: 180px;
+}
+
+.submit .wrapper a {
+	display: block;
+	width: 190px;
+	height: 70px;
+	float: right;
+}
+
+.submit .wrapper a img {
+	margin-top: 16px;
+	display: block;
+}
+
+/**************footer***************/
+#footer {	
+	color: #999;
+	background: #F5F5F5;
+	overflow: hidden;
+	padding: 20px;	
+}
+
+#footer p {
+	text-align: center;
+	padding: 5px 0;
+}
+
+#footer p i {
+	font-style: normal;
+	padding: 0 5px;
+}
